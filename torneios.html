@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Torneios</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">TORNEIOS</a></li>
+                    <li><a href="course.html">Cabrito</a></li>
+                    <li><a href="blog.html">COMUNIDADE</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>Torneios Desponiveis</h1>
+    </section>
+    
+    
+<!------- Torneios -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>FreeFire</h1>     
+            <p>Free Fire é um jogo eletrônico mobile de ação-aventura do gênero battle royale, criado pela desenvolvedora vietnamita 111dots Studio e publicado pela Garena. O jogo obteve um beta aberto em novembro de 2017 e foi lançado oficialmente para Android de iOS em 4 de dezembro de 2017</p>
+            <a href="" class="hero-btn red-btn">Participar</a>
+        </div>
+        <div class="about-col">
+            <img src="images/FreeFIre.jpg">
+        </div>
+    </div>    
+</section>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>CoD Mobile</h1>     
+            <p>Call of Duty: Mobile é um jogo eletrônico free-to-play de tiro em primeira pessoa desenvolvido pela Tencent Games e publicado pela Activision para Android e iOS. Foi lançado em 1 de outubro de 2019</p>
+            <a href="" class="hero-btn red-btn">Participar</a>
+        </div>
+        <div class="about-col">
+            <img src="images/CoD Mobile.jpg">
+        </div>
+    </div>    
+</section>
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4></h4>
+    <p></p>
+    <div class="icons">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>            
+    </div>
+    <a href="" class="footer-link"><p>TripleKILL<i class="fa fa-registered"></i> 2023</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

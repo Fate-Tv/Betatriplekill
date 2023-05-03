@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Esports</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="torneios.html">TORNEIOS</a></li>
+                    <li><a href="/Loja/index.html ">LOJAS</a></li>
+                    <li><a href="comunidade.html">COMUNIDADE</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Welcome to TripleKILL</h1>
+            <p>Biggest Esports Organization of Africa Mozambique </p>
+            <a href="contact.html" class="hero-btn">Saiba Mais aqui</a>
+        </div>
+    </section>
+
+<!---------- Nossas ofertas ---------->
+    
+    <section class="campus">
+        <h1>Explore as Nossas ofertas</h1>
+            <div class="row">
+                <div class="campus-col">
+                    <a href=""><img src="images/1.png"></a>
+                    <div class="layer">
+                        <h3>Torneios</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/2.png">
+                    <div class="layer">
+                        <h3>Loja</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/3.png">
+                    <div class="layer">
+                        <h3>Meetings</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+    <!------ Call To Action ------>
+
+    <section class="cta">
+    
+        <h1>Compre connosco as melhores pecas para o seu pc<br>De qualquer lugar a qualquer momento</h1>
+         <a href="" class="hero-btn">CONTACTE-NOS</a>
+     
+    </section>  
+
+
+<!---------- team ---------->
+
+ <!---------- Patrocinadores ----------->
+    
+<section class="topico">
+    <h1>Patrucinadores</h1>
+    <p>Clayton mamou aqui  e ele patrocina</p>
+<div class="small-container">
+    <div class="row">
+        <div class="col-5">
+            <img src="images/Vodacom-Logo.wine.png">
+        </div>
+        <div class="col-5">
+            <img src="images/logo-coca-cola.png">
+        </div>
+        <div class="col-5">
+            <img src="images/logo-paypal.png">
+        </div>
+    </div>
+</div>
+</div>
+</section>    
+
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4></h4>
+        <p></p>
+        <div class="icons">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>            
+        </div>
+        <a href="" class="footer-link"><p>TripleKILL<i class="fa fa-registered"></i> 2023</p></a>
+</section>    
+
+     <!---sticky NavBar --->
+     <script>
+        window.addEventListener('scroll',function(){
+                  var header = document.querySelector('header');
+                  header.classList.toggle('sticky',window.scrollY > 0);
+        });
+    </script>
+    
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
